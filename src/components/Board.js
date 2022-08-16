@@ -54,7 +54,7 @@ const Board = () => {
                 <Square value={squares[7]} onClick={()=> handleClick(7)}/>
                 <Square value={squares[8]} onClick={()=> handleClick(8)}/>
         </div>
-        <button onClick={handleRestart} className="text-center" style={{margin:"12px auto", width:"200px", display:"block"}}>Restart</button>
+        <button onClick={handleRestart} className="text-center" style={{margin:"12px auto", width:"200px", display:"block", borderRadius:"5px"}}>Restart</button>
     </>
   )
 }
