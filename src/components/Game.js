@@ -8,12 +8,6 @@ const Game = () => {
       <div className="col-sm-8 game-board">
         <Board/>
       </div>
-      <div className="col-sm-4 game-info">
-        <p className="h2">{/* status */}</p>
-        <ul className="nav nav-pills flex-column">
-          {/* TODO */}
-        </ul>
-      </div>
     </section>
   </article>
   )
